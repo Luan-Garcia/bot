@@ -1,0 +1,44 @@
+{
+    "system": true,
+    "definition": {
+        "functionsTicket": {
+            "notifyuser": true,
+            "assumir": true,
+            "call": true,
+            "renomear": true,
+            "gerenciar": true,
+            "motivo": true
+        },
+        "channels": {
+            "logs": "1268669275418398763",
+            "feedback": "1279214003826065489",
+            "category": "1274524971095560334"
+        },
+        "role": "1262137475242135585"
+    },
+    "panel": {
+        "mensagem": {
+            "content": false,
+            "embeds": {
+                "title": "Atendimento",
+                "desc": "Abra um ticket clicando abaixo",
+                "banner": null,
+                "cor": "#00FFFF"
+            },
+            "msg": {
+                "content": "Não Definido",
+                "banner": null
+            }
+        },
+        "functions": {
+            "Suporte": {
+                "predesc": "Abra um ticket para suporte",
+                "desc": "Abra um ticket para suporte",
+                "banner": null,
+                "emoji": null
+            }
+        },
+        "button": true,
+        "messages": []
+    }
+}
